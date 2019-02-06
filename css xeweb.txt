@@ -1,0 +1,38 @@
+.countdown {
+    display:inline-block;
+    margin:0 auto;
+    font-size:4em;
+    font-family:'Open Sans', sans-serif;
+    font-weight:700;
+    line-height:65px;
+    color:#fff;
+}
+
+.countdown div span {
+    display:block;
+    font-weight:normal;
+    font-size:16px;
+    line-height:19px;
+    color:rgba(237,237,237,0.8);
+}
+
+.countdown div {
+    position:relative;
+    display:inline-block;
+    margin:0 34px;  
+}
+
+.countdown div:after {
+    content:"";
+    position:absolute;
+    top:22px;
+    right:-34px;
+    width:1px;
+    height:60%;
+    background:#fff;
+    opacity:0.3;
+}
+
+.countdown div:last-child:after {
+    display:none;
+}

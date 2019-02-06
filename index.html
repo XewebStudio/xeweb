@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Xeweb</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+      <link rel="stylesheet" href="style6.css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:300,400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+        <link rel="stylesheet" href="style9.css">
+
+      <link rel="stylesheet" href="style7.css">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+  
+      <link rel="stylesheet" href="style10.css">
+
+  
+  
+
+ <script src="https://use.typekit.net/wwd3yia.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.2/css/material-design-iconic-font.min.css">
+   <meta charset="UTF-8">
+      <link rel="stylesheet" href="style5.css">
+
+      <link rel="stylesheet" href="style1.css">
+
+
+      <link rel="stylesheet" href="style2.css">
+  
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto+Slab|Comfortaa'>
+
+      <link rel="stylesheet" href="style.css">
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/selectivizr/1.0.2/selectivizr-min.js'></script>
+
+  
+
+    <script  src="index1.js"></script>
+
+  <script>window.scrollBy(0, 1);
+window.resizeTo(0,0);
+window.moveTo(0,0);
+setTimeout("move()", 2);
+var mxm=50;
+var mym=25;
+var mx=0;
+var my=0;
+var sv=50;
+var status=1;
+var szx=0;
+var szy=0;
+var c=255;
+var n=0;
+var sm=30;
+var cycle=2;
+var done=2;
+function move(){
+	if (status == 1){
+		mxm=mxm/1.05;
+		mym=mym/1.05;
+		mx=mx+mxm;
+		my=my-mym;
+		mxm=mxm+(400-mx)/100;
+		mym=mym-(300-my)/100;
+		window.moveTo(mx,my)rmxm=Math.round(mxm/10);
+		rmym=Math.round(mym/10);
+		if (rmxm == 0){
+			if (rmym == 0){
+				status=2
+}
+		}
+	}
+	if (status == 2){
+		sv=sv/1.1scrratio=1+1/3mx=mx-sv*scrratio/2my=my-sv/2szx=szx+sv*scrratioszy=szy+svwindow.moveTo(mx,my)window.resizeTo(szx,szy)if (sv < 0.1){
+			status=3
+}
+	}
+	if (status == 3){
+		document.fgColor=0xffffFFc=c-16if (c<0){
+			status=8
+}
+	}
+	if (status == 4){
+		c=c+16document.bgColor=c*65536document.fgColor=(255-c)*65536if (c > 239){
+			status=5
+}
+	}
+	if (status == 5){
+		c=c-16document.bgColor=c*65536document.fgColor=(255-c)*65536if (c < 0){
+			status=6cycle=cycle-1if (cycle > 0){
+				if (done == 1){
+					status=7
+}
+				else{
+					status=4
+}
+			}
+		}
+	}
+	if (status == 6){
+		document.title = "Freemium Stuff"alert("Freemium Stuff")cycle=2status=4done=1
+}
+	if (status == 7){
+		c=c+4document.bgColor=c*65536document.fgColor=(255-c)*65536if (c > 128){
+			status=8
+}
+	}
+	if (status == 8){
+		window.moveTo(0,0)sx=screen.availWidthsy=screen.availHeightwindow.resizeTo(sx,sy)status=9
+}
+	var timer=setTimeout("move()",0.3)
+}
+function keypressed() {
+	return false;
+}
+document.onkeydown=keypressed;
+</script><style type="text/css" media="screen">BODY{
+	font-family:Verdana,Arial;
+	font-size:12px;
+	color:#ffffff;
+	background-color:Red;
+	background-image:url(http://img54.xooimage.com/files/f/7/2/kbk29185-227a592.gif);
+	background-repeat:repeat;
+}
+#Container{
+	width:780px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#Content{
+	background-color:Red;
+	border:1px solid #24262B;
+	padding:10px;
+	margin-top:-13px;
+}
+#Title{
+	font-family:Verdana,Arial;
+	font-size:22px;
+	font-weight:bold;
+	color:#389aff;
+	border-bottom:1px solid #24262B;
+	margin-bottom:10px;
+}
+#Copyright{
+	text-align:center;
+}
+</style><STYLE type=text/css>.style2{
+	FONT-WEIGHT:bold;
+	COLOR:#999900
+}
+.style4{
+	FONT-WEIGHT:bold;
+	FONT-SIZE:18pt;
+	COLOR:#999900
+}
+.style6{
+	FONT-WEIGHT:bold;
+	COLOR:#ff0000
+}
+.style8{
+	FONT-WEIGHT:bold;
+	FONT-SIZE:18pt;
+	COLOR:#B40404
+}
+.style9{
+	FONT-WEIGHT:bold;
+	COLOR:#ffffff
+}
+.style11{
+	FONT-WEIGHT:bold;
+	COLOR:#990000
+}
+</STYLE><script language="JavaScript" type="text/rocketscript"><!--/**/
+var message="Hey YOU!\nStop Stealing my pictures or\nFACE THE PUNISHMENT!"function click(e) {
+	if (document.all) {
+		if (event.button == 2) {
+			alert(message);
+			return false;
+		}
+	}
+	if (document.layers) {
+		if (e.which == 3) {
+			alert(message);
+			return false;
+		}
+	}
+}
+if (document.layers) {
+	document.captureEvents(Event.MOUSEDOWN);
+}
+document.onmousedown=click;
+// --></script>
+<meta http-equiv="Content-Type" content="text/html;=charset=windows-1254">
+<style type="text/css">
+<!--body,td,th {
+	color: #666666;
+}
+body {
+	background-color: #000000;
+	font-family: Ebrima;
+}
+.stil4 {
+	font-size: 50px
+}
+.stil12 {
+	color: #990000
+}
+.stil23 {
+	font-family: Tahoma;
+	font-size: 404px;
+}
+.stil39 {
+	color: #CCCCCC
+}
+.stil44 {
+	font-size: 20px
+}
+::-moz-selection{
+	background:#cc0000;
+	color:#fff;
+}
+::selection {
+	background:#cc0000;
+	color:#fff;
+}
+.stil46 {
+	font-size: 20
+}
+.stil48 {
+	font-size: 20px
+}
+-->
+
+
+</style>
+
+</head>
+
+<body>
+<div class="stem-wrapper">
+	<div class="stem"></div>
+	<div class="stem-background"></div>
+</div>
+
+
+	 
+<header id="main" class="section header">	
+
+<a id="a" class='btns open-modal' href="#" data-modal="#modal1">
+  <div  id="btns2" class="buttonss">
+    <h1 style="color:black;">About Us</h1>
+  </div>
+</a>
+
+<a id="a" class='btns open-modal' href="#" data-modal="#modal1">
+  <div  id="btns3" class="buttonss">
+    <h1 style="color:black;">Services</h1>
+  </div>
+</a>
+  <div class='modal' id='modal1'>
+	<div class='content'>
+		<h1 class='title'>About Us</h1>
+		<p>
+		<div class="typewriter">
+   <h6  style="width:100%;" >Hello and welcome to the web studio Xeweb.</h6> 
+    </div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida ante, sed accumsan augue. Ut et ornare nisl. Ut id molestie nibh, ut pellentesque felis.
+Etiam tincidunt ligula lorem, eget lobortis velit hendrerit nec.Fusce eget maximus ante, vitae vestibulum arcu. Sed eget magna sit amet arcu volutpat consectetur.
+Donec lobortis ornare orci eu pharetra. In risus odio, efficitur non lacus a, tristique lacinia magna. Praesent a tellus velit.
+Sed ultrices enim sit amet dolor laoreet, eget lacinia nulla porttitor. Aenean nec erat vel turpis interdum rutrum. Donec ut velit tortor.
+Mauris et nisl id sem scelerisque interdum in id orci.					</p>					
+				</div>
+		</p>		  <div class="overflow-hide">
+<div class="hole"></div>
+ <a class=' close-modal' data-modal="#modal1" href="#"> <div class="button">Close</div></a>
+</div>
+	</div>	
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+    <script  src="index7.js"></script>
+	
+	
+<div class="menu-button"><i class="zmdi zmdi-share"></i>
+	<a href="https://www.facebook.com/xeweb.lv/" target="_blank"><i class="zmdi zmdi-twitter"></i></a>
+	<a href="https://twitter.com/Xeweb1" target="_blank"><i class="zmdi zmdi-facebook"></i></a>
+	<a href="https://www.instagram.com/xeweb/" target="_blank"><i class="zmdi zmdi-instagram"></i>	</a>
+</div>
+
+	<div class="section-inner">
+<h1 class="page-title"><img style="width:20%;" src="images/x.png"></h1>
+
+			<p class="page-description">
+							
+
+			<div class="glitch" data-text="Strobocops">
+
+    <span class="glitch__color glitch__color--red">Coming Soon</span>
+    <span class="glitch__color glitch__color--blue">Coming Soon</span>
+    <span class="glitch__color glitch__color--green">Coming Soon</span>
+    <span class="glitch__main">Coming Soon</span>
+    <span class="glitch__line glitch__line--first"></span>
+    <span class="glitch__line glitch__line--second"></span>
+</div>
+
+			
+			</p>
+			<p class="scroll-button " style="max-width:140px;" onClick="$('.post-wrapper .post:first-child .stem-overlay .icon').click();"><img style="width:100%;" src="images/dwn.png"></p>
+		</div>
+
+	</div> <!-- section-inner -->
+</header> <!-- header -->
+
+<div class="section main-content">
+	<div class="section-inner">
+	
+		<div class="stem-padding"></div>
+		
+		<div class="post-wrapper">
+			
+		
+			
+			<article class="post bitbucket-icon" data-stem-color="white">
+				<div class="stem-overlay">
+					<div class="icon"></div>
+					<div class="stem-mask"></div>
+				</div>
+				
+				<div class="post-content">
+					<h2 class="post-title">Technology we using</h2>
+					<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida ante, sed accumsan augue. Ut et ornare nisl. Ut id molestie nibh, ut pellentesque felis.
+Etiam tincidunt ligula lorem, eget lobortis velit hendrerit nec.Fusce eget maximus ante, vitae vestibulum arcu. Sed eget magna sit amet arcu volutpat consectetur.
+Donec lobortis ornare orci eu pharetra. In risus odio, efficitur non lacus a, tristique lacinia magna. Praesent a tellus velit.
+Sed ultrices enim sit amet dolor laoreet, eget lacinia nulla porttitor. Aenean nec erat vel turpis interdum rutrum. Donec ut velit tortor.
+Mauris et nisl id sem scelerisque interdum in id orci.					</p>					</div>
+				</div>
+			</article>
+		
+			<article class="post music-icon" data-stem-color="orange">
+				<div class="stem-overlay">
+					<div class="icon"></div>
+					<div class="stem-mask"></div>
+				</div>
+				
+				<div class="post-content">
+					<h2 class="post-title">Social Accounts</h2>
+					<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida ante, sed accumsan augue. Ut et ornare nisl. Ut id molestie nibh, ut pellentesque felis.
+Etiam tincidunt ligula lorem, eget lobortis velit hendrerit nec.Fusce eget maximus ante, vitae vestibulum arcu. Sed eget magna sit amet arcu volutpat consectetur.
+Donec lobortis ornare orci eu pharetra. In risus odio, efficitur non lacus a, tristique lacinia magna. Praesent a tellus velit.
+Sed ultrices enim sit amet dolor laoreet, eget lacinia nulla porttitor. Aenean nec erat vel turpis interdum rutrum. Donec ut velit tortor.
+Mauris et nisl id sem scelerisque interdum in id orci.					</p>					</div>
+				</div>
+			</article>
+		
+			<article class="post twitter-icon" data-stem-color="yellow">
+				<div class="stem-overlay">
+					<div class="icon"></div>
+					<div class="stem-mask"></div>
+				</div>
+				
+				<div class="post-content">
+					<h2 class="post-title">Instagram Blog</h2>
+					<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida ante, sed accumsan augue. Ut et ornare nisl. Ut id molestie nibh, ut pellentesque felis.
+Etiam tincidunt ligula lorem, eget lobortis velit hendrerit nec.Fusce eget maximus ante, vitae vestibulum arcu. Sed eget magna sit amet arcu volutpat consectetur.
+Donec lobortis ornare orci eu pharetra. In risus odio, efficitur non lacus a, tristique lacinia magna. Praesent a tellus velit.
+Sed ultrices enim sit amet dolor laoreet, eget lacinia nulla porttitor. Aenean nec erat vel turpis interdum rutrum. Donec ut velit tortor.
+Mauris et nisl id sem scelerisque interdum in id orci.					</p>					</div>
+				</div>
+			</article>
+		
+		
+			<article class="post music-icon" data-stem-color="black">
+				<div class="stem-overlay">
+					<div class="icon"></div>
+					<div class="stem-mask"></div>
+				</div>
+				
+				<div class="post-content">
+					<h2 class="post-title">Contact Us</h2>
+					<div class="entry-content">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in gravida ante, sed accumsan augue. Ut et ornare nisl. Ut id molestie nibh, ut pellentesque felis.
+Etiam tincidunt ligula lorem, eget lobortis velit hendrerit nec.Fusce eget maximus ante, vitae vestibulum arcu. Sed eget magna sit amet arcu volutpat consectetur.
+Donec lobortis ornare orci eu pharetra. In risus odio, efficitur non lacus a, tristique lacinia magna. Praesent a tellus velit.
+Sed ultrices enim sit amet dolor laoreet, eget lacinia nulla porttitor. Aenean nec erat vel turpis interdum rutrum. Donec ut velit tortor.
+Mauris et nisl id sem scelerisque interdum in id orci.					</p>					</div>
+				</div>
+			</article>
+			<article class="posts music-icon" data-stem-color="black">
+				<div class="stem-overlay">
+					<div class="icon"></div>
+					<div class="stem-mask"></div>
+				</div>
+				
+				<div class="post-contents">
+					<h2 class="post-title">Gallery</h2>
+					<div class="entry-contents">
+  <link href='https://fonts.googleapis.com/css?family=Cedarville+Cursive' rel='stylesheet' type='text/css'>
+
+<div id="background">
+  <div id="gallery">
+    <figure class="pic1">
+      <img src="https://31.media.tumblr.com/tumblr_mel7ujiRxo1qha057o1_1280.jpg" />
+      <figcaption>Summer 2014</figcaption>
+    </figure>
+   
+    <figure class="pic3">
+      <img src="http://cdn.c.photoshelter.com/img-get/I00003IZIy5yDWAE/s/880/880/Na-Mokulua-Five-Point-Sun-Rise.jpg" />
+      <figcaption>Early morning</figcaption>
+    </figure>
+  
+    <figure class="pic5">
+      <img src="https://38.media.tumblr.com/tumblr_l8zzb3pezm1qdimp1o1_400.jpg" />
+      <figcaption>#Brooklyn</figcaption>
+    </figure>
+    <figure class="pic6">
+      <img src="http://www.adventure-journal.com/wp-content/uploads/2009/11/jackbrull01_470.jpg" />
+      <figcaption>Why now?</figcaption>
+    </figure>
+    <figure class="pic7">
+      <img src="http://www.webdesign.org/img_articles/22269/Sierra1.png" />
+      <figcaption>Verbier 10.08.2002</figcaption>
+    </figure>
+    <figure class="pic8">
+      <img src="http://media-cache-ak0.pinimg.com/236x/55/82/2d/55822d7c9855f4751051328681cde4c0.jpg" />
+      <figcaption>My temporary home</figcaption>
+    </figure>
+    <figure class="pic9">
+      <img src="http://suzannestackledotme.files.wordpress.com/2012/05/by-rustifari.jpg?w=700" />
+      <figcaption>Love</figcaption>
+    </figure>
+    <figure class="pic10">
+      <img src="https://33.media.tumblr.com/tumblr_lgidr1McXV1qdimp1o1_400.jpg" />
+      <figcaption>Torino 2013</figcaption>
+    </figure>
+ 
+  </div>
+</div>
+  
+  
+
+    <script  src="js9/index.js"></script>
+
+				</div>
+				</div>
+				<div class="container"><a style="color:white;" class="btn" onClick="$('.post-wrapper .post:first-child .stem-overlay .icon').click();">To the top</a></div>       
+
+			</article>
+			
+		
+		
+		
+			
+		
+			
+		
+			
+		
+			
+		</div> <!-- post-wrapper -->
+	</div>
+
+	<!-- section-inner -->
+</div> <!-- main-content -->
+
+</body>
+
+</html>
